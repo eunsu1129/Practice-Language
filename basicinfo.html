@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang=" " dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <title>Bootstrap </title>
+    <link rel="stylesheet" href="css/bootstrap.css"
+  </head>
+
+  <body>
+    <style>
+    #basicbackground {
+      position: absolute;
+      z-index: -1;
+      margin: 10px;
+      padding: 10px;
+      width : 50%;
+      opacity : 0.2;
+      }
+
+    #resume {
+      font-size : large;
+      magin : 20px;
+      padding : 50px;
+    }
+
+    #resume2 {
+      margin-left: : 20px;
+      padding-left : 80px;
+    }
+  </style>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="file:///Users/eunsusin/Documents/Bootstrap/index2.html">Eunsu_Shin</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Basic Info <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Work Experience
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">In Korea</a>
+          <a class="dropdown-item" href="#">In Australia</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          CLASS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">CSS</a>
+          <a class="dropdown-item" href="#">Java script</a>
+          <a class="dropdown-item" href="#">Bootstrap</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+<!-- 검색하는 부분 만들기! form!! _ 'placeholder == 입력이 없을떄 사용자에게 힌트를 주는 부분' -->
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="What're you looking for?" aria-label="Search">
+<!-- 'submit'==버튼을 눌렀을때 form 태그의 내용이 서버로 보내진다. -->
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          접속하기
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Sign up</a>
+            <a class="dropdown-item" href="#">Sign in </a>
+          </div>
+    </form>
+  </div>
+</nav>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+
+    <div id="basicbackground">
+      <image src='images/opera.jpg' alt="centered-image" width="1387px" height="925px"></image>
+    </div>
+
+    <div id="resume">
+      <h1>Eunsu Shin (Su)</h1>
+    </div>
+
+    <div id="resume2">
+      <p>ADDRESS : 130 Fiddens Wharf Rd, Kilara NSW 2071</p>
+    </div>
+
+  </body>
+</html>
